@@ -16,7 +16,7 @@ config = {
 cnx = mysql.connector.connect(**config)
 cursor = cnx.cursor()
 
-url = "https://www.facebook.com/marketplace/109393625747187/vehicles"
+url = "https://www.facebook.com/marketplace/##"
 
 response=None
 try:
